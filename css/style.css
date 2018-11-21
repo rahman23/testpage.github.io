@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-
     font-family: 'Open Sans', sans-serif;
-    font-size:1rem;
     background-color: white;
     padding:0;
     margin:0;  overflow-x: hidden;
@@ -14,14 +12,12 @@ body{
     margin:auto;
     width: 80%;
     overflow:hidden;
-
 }
 
 header{
     padding:0;
     background-color:white;
     min-height:60px;
-
 }
 
 header a{
@@ -29,8 +25,6 @@ header a{
     text-decoration: none;
     color: #181818;
     font-size:1.2rem;
-
-
 }
 
 header a:hover{
@@ -76,8 +70,7 @@ header nav{
 }
 
 #window .container{
-    position: absolute;
-    z-index: 1;
+    position: absolute;   
     top: 35%;
     left:25%;
     text-align: center;
@@ -126,9 +119,9 @@ header nav{
     padding:5px 0 0 0;
     margin:0;
 }
-#team .box p{
+#team p{
     padding: 0 10px 10px 10px;
-    height:10vh;
+    height:15vh;
     text-align: center;
     margin: 0;
 }
@@ -153,8 +146,6 @@ footer{
   
 }
 
-
-
 .btn {
     background-color: rgb(30,187,242);
     border: none;
@@ -171,18 +162,13 @@ footer{
 
 
 
-
-
 @media only screen and (max-width: 900px) and (min-width: 450px) {
 
-  #window .container{
-  
-    left:10%;
-  
+  #window .container{  
+    left:10%;  
     width: 70vh;
 }
-    #team .grid-3{
-   
+    #team .grid-3{   
     grid-template-columns: 1fr 1fr;
 }
     
@@ -191,22 +177,14 @@ footer{
 }
 
 @media only screen and (max-width: 450px) and (min-width: 100px) {
-
-  #window .container{
-  
-  
-    width: 40vh;
-}
-    #window h1{
-   
- 
-    font-size:3rem;
+    #window .container{
+        width: 40vh;
+    }
     
-
-
+    #window h1{
+        font-size:3rem;
     } 
-#team .grid-3{
-   
-    grid-template-columns: 1fr;
-}
+    #team .grid-3{
+        grid-template-columns: 1fr;
+    }
 }
