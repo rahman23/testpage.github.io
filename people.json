@@ -4,48 +4,6 @@
       "jobTitle":"project manager",
       "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
       "image":"person.svg",
-      "profileUrl":"www.google.com"
-   },
-     {
-      "name":"Jane Doe",
-      "jobTitle":"business consultant",
-      "description":"Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-   {
-      "name":"Darth Vader",
-      "jobTitle":"dark lord",
-      "description":"At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-   {
-      "name":"Joda",
-      "jobTitle":"jedi master",
-      "description":"Stet clita kasd gubergren.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-   {
-      "name":"Leia Organa",
-      "jobTitle":"princess of Alderaan",
-      "description":"Labore et dolore magna aliquyam erat, sed diam voluptua.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-   {
-      "name":"Greedo",
-      "jobTitle":"headhunter",
-      "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-       {
-      "name":"Leia Organa",
-      "jobTitle":"princess of Alderaan",
-      "description":"Labore et dolore magna aliquyam erat, sed diam voluptua.",
-      "image":"person.svg",
       "profileUrl":"#"
    },
    {
@@ -70,20 +28,6 @@
       "profileUrl":"#"
    },
    {
-      "name":"Leia Organa",
-      "jobTitle":"princess of Alderaan",
-      "description":"Labore et dolore magna aliquyam erat, sed diam voluptua.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-   {
-      "name":"Greedo",
-      "jobTitle":"headhunter",
-      "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.",
-      "image":"person.svg",
-      "profileUrl":"#"
-   },
-       {
       "name":"Leia Organa",
       "jobTitle":"princess of Alderaan",
       "description":"Labore et dolore magna aliquyam erat, sed diam voluptua.",
