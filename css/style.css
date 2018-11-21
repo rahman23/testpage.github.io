@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:1rem;
+    background-color: white;
+    padding:0;
+    margin:0;  overflow-x: hidden;
+}
+
+
+.container{
+    margin:auto;
+    width: 80%;
+    overflow:hidden;
+
+}
+
+header{
+    padding:0;
+    background-color:white;
+    min-height:60px;
+
+}
+
+header a{
+    font-weight: 900;
+    text-decoration: none;
+    color: #181818;
+    font-size:1.2rem;
+
+
+}
+
+header a:hover{
+    color: rgb(30,187,242);
+    font-weight: 700;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+
+}
+
+header li {
+    float:left;
+    display:inline;
+    
+    padding:10px 20px 10px 20px;
+}
+
+header #logo{
+    float:left;
+    background: url("../img/logo-placeholder.svg") no-repeat;
+    height: 12vh;
+    width: 50vh;
+}
+
+header nav{
+    float: right;
+    margin-top:20px;
+}
+
+
+#window{
+    height: 100vh;
+    text-align:center;
+    color: whitesmoke;
+    background: url("../img/iStock-510410894.jpg");
+    background-size:cover;   
+    filter:opacity(0.6);    
+    filter: alpha(opacity=60); /* For IE */
+
+}
+
+#window .container{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left:25%;
+    text-align: center;
+    width: 90vh;
+}
+
+#window h1{
+   
+    margin-top:50px;
+    font-size:4.5rem;
+    display:inline;
+    border-bottom: 5px solid;
+    border-color:rgb(30,187,242);
+
+}
+
+#window p{
+    font-size:1.2em;
+}
+
+
+#team .case{
+    max-width: 150vh;
+    margin:auto;
+    overflow:hidden;
+    padding: 4rem 1rem;
+}
+#team .grid-3{
+    display:grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#team .box{
+    margin:10px;
+    padding:20px 0 20px 0;    
+    background-color: #d3d3d359;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team .title{
+    color:rgb(30,187,242);
+    margin-top:0;
+}
+#team .name{
+    padding:5px 0 0 0;
+    margin:0;
+}
+#team .box p{
+    padding: 0 10px 10px 10px;
+    height:10vh;
+    text-align: center;
+    margin: 0;
+}
+
+.image{
+    /*background: url(../img/person.svg)*/
+    background-color:  lightgray;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+}
+
+footer{
+
+    background-color: #333333;
+    height: 40px;
+    padding-top: 3px;
+    padding-left: 10%;
+    text-align: left;
+    color: white;
+  
+}
+
+
+
+.btn {
+    background-color: rgb(30,187,242);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer; 
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 450px) {
+
+  #window .container{
+  
+    left:10%;
+  
+    width: 70vh;
+}
+    #team .grid-3{
+   
+    grid-template-columns: 1fr 1fr;
+}
+    
+
+
+}
+
+@media only screen and (max-width: 450px) and (min-width: 100px) {
+
+  #window .container{
+  
+  
+    width: 40vh;
+}
+    #window h1{
+   
+ 
+    font-size:3rem;
+    
+
+
+    } 
+#team .grid-3{
+   
+    grid-template-columns: 1fr;
+}
+}
