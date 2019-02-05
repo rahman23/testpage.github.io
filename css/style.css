@@ -102,6 +102,8 @@ header nav{
     display: -ms-grid
     align-content: center;
     -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     -ms-grid-columns:1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -118,6 +120,8 @@ header nav{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
 }
 #team .title{
     color:rgb(30,187,242);
