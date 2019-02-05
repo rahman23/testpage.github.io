@@ -27,7 +27,7 @@ for (let user of a) {
   btn.classList.add('btn');
   btn.textContent= "View details";
   btn.href=user.profileUrl;
-  btn.target="_blank"
+  btn.target="_blank";
 
   
   box.appendChild(image);
