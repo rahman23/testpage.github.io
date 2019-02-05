@@ -40,8 +40,7 @@ header ul{
 
 header li {
     float:left;
-    display:inline;
-    
+    display:inline;    
     padding:10px 20px 10px 20px;
 }
 
@@ -100,15 +99,24 @@ header nav{
 }
 #team .grid-3{
     display:grid;
+    display: -ms-grid
     align-content: center;
+    -ms-flex-pack: center;
+    -ms-grid-columns:1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 #team .box{
     margin:10px;
     padding:20px 0 20px 0;    
-    background-color: #d3d3d359;  
+    background-color: #d3d3d359;    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     align-items: center;
 }
 #team .title{
@@ -170,6 +178,7 @@ footer{
 }
     #team .grid-3{   
     grid-template-columns: 1fr 1fr;
+         -ms-grid-columns:1fr 1fr;
 }
     
 
