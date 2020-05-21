@@ -40,5 +40,12 @@
       "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.",
       "image":"person.svg",
       "profileUrl":"#"
+   },
+   {
+      "name":"Rahman",
+      "jobTitle":"Developer",
+      "description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.",
+      "image":"person.svg",
+      "profileUrl":"#"
    }
 ]
